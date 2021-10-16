@@ -1,0 +1,75 @@
+.journal-header {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(53, 60, 83);
+}
+
+/*create journal section*/
+.center {
+    width: fit-content;
+    margin: auto;
+}
+.title {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: rgb(44, 86, 114)
+}
+.text-area {
+    margin-top: 15px;
+}
+.background {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    background-color: rgba(166, 189, 201, 0.39);
+    border-radius: 30px;
+}
+.create-btn { 
+    margin-top: 15px;  
+}
+
+/*random ideas*/
+.random {
+    width: 500px;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 15px;
+    border: gray 1px solid;
+}
+.idea-center {
+    display: inline-block;
+}
+.idea-btn {
+    height: 35px;
+}
+.idea-container {
+    margin-top: 30px;
+}
+
+/*show journal*/
+.container {
+    width: 72%;
+    margin: auto;
+    margin-top: 40px;
+}
+.journal {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    border: rgb(40, 71, 71) 0.5px solid;
+    color: rgb(40, 71, 71);
+    word-break: break-word;
+}
+.journal-btn {
+    background-color: rgb(233, 144, 144);
+    color: aliceblue ; 
+    border: rgb(233, 144, 144) 1px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    float: right;
+}
+

@@ -1,0 +1,85 @@
+.header-letter {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(53, 60, 83);
+}
+.noti {
+    color: rgb(211, 101, 101);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*letter input*/
+.letter-container {
+    width: 65%;
+    background-color: rgba(166, 189, 201, 0.39);
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.letter-center {
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    color: rgb(44, 86, 114)
+}
+
+/*read letter*/
+.letter-box {
+    border: rgb(212, 214, 216) 1px solid; 
+    background-color: aliceblue;
+    width: 30%;
+    height: 95%;
+    position: fixed;
+    right: 0;
+    margin-top: -25px;
+    padding: 30px;
+    overflow-y: auto;
+    word-break: break-word;
+}
+.read {
+    margin-top: 20px;
+    color: rgb(44, 86, 114);
+}
+
+/*letter lists*/
+.letter-desc {
+    margin-left: 25px;
+    color: rgb(40, 71, 71)
+}
+.letter-desc-container {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.read-btn {
+    float: right;
+}
+.list {
+    margin-right: 15px;
+}
+.show {
+    width: 65%;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: rgb(44, 86, 114);
+    background-color: aliceblue;
+    border: rgb(103, 169, 212) 1px solid;
+}
+.unshow {
+    width: 65%;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: rgb(53, 60, 83);
+    background-color: rgba(166, 189, 201, 0.39);
+}  
+.today {
+    color: rgb(211, 101, 101);
+    background: rgb(235, 217, 217);
+}
+
+

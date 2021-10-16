@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@200&display=swap');
+* {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+/*month and date top row*/
+.month {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.date {
+    display: inline-block;
+    margin: 3px;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+/*date dynamic container*/
+.date-sticky-31{
+    position: fixed;
+    margin-top: -100px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 1316px; /*plus 200 from margin-left*/
+}
+.date-sticky-30{
+    position: fixed;
+    margin-top: -100px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 1280px; /*plus 200 from margin-left*/
+}
+.date-sticky-28{
+    position: fixed;
+    margin-top: -100px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 1208px; /*plus 200 from margin-left*/
+}
+.date-container-31 {
+    margin-top: -50px;
+    margin-left: 200px;
+    width: 1116px; /*for 31 days each 3px*2 + 30px = 1116px*/
+}
+.date-container-30 {
+    margin-top: -50px;
+    margin-left: 200px;
+    width: 1080px; /*for 30 days each 6px*2 + 30px = 1080px*/
+}
+.date-container-28 {
+    margin-top: -50px;
+    margin-left: 200px;
+    width: 1008px; /*for 30 days each 5px*2 + 30px = 1008px*/
+}
+
+/*header elements*/
+.header-tracker {
+    margin-top: 100px;
+    margin-left: 20px;
+    color: rgb(53, 60, 83);
+}
+.header-ratingtracker {
+    margin-left: 20px;
+    margin-top: 60px;
+    color: rgb(53, 60, 83);
+}
+.form-input {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.add-btn {
+    margin-left: 10px;
+}
+
+/*inline for a row*/
+.item-container{
+    display: inline-block;
+}
+
+/*title and btn-del*/
+.btn-del-tracker {
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 25px;
+    background-color: rgb(233, 144, 144);
+    color: aliceblue ; 
+    border: rgb(233, 144, 144) 1px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.title-tracker {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgb(44, 86, 114);
+}
+
+/*checkbox row*/
+.item-container-checkbox{
+    margin-top: -35px;
+}
+
+/*rating checkbox row and rating item*/
+.rating-container{
+    width: 100px;
+    margin-left: 90px;
+    margin-top: 0px;
+    text-align: right;
+    color: rgb(40, 71, 71);
+}
+.rating {
+    padding-bottom: 15px;
+}
+.item-container-ratingcheckbox {
+    margin-top: -215px;
+    margin-bottom: 50px;
+}
+
+/*checkbox decoration*/
+.checkbox-container input {
+    display: none;
+  }
+.checkbox-container {
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: rgb(126, 126, 126) 1px solid;
+}
+.checkmark {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: -11px;
+    margin-top: -11px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: rgb(126, 126, 126) 1px solid;
+  }
+.checkbox-container input:checked + .checkmark {
+    background-color: rgb(166, 245, 201);
+    border-color: rgb(166, 245, 201);
+  }
+

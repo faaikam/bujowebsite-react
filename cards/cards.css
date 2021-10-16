@@ -1,0 +1,70 @@
+/*undisplay id code*/
+aside {
+    display: none;
+}
+
+/*container*/
+.card-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    border: rgb(150, 175, 175) 2px solid;
+    border-radius: 25px;
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+    padding: 20px;
+}
+.card-area-container {
+    height: 460px;
+    margin-top: -20px;
+    overflow-y: auto;
+}
+.list-container {
+    width: 330px;
+    height: 30px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/*element*/
+.header-cards {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(53, 60, 83);
+}
+.card-title {
+    color: rgb(44, 86, 114);
+}
+.list-element {
+    display: inline-block; 
+    color: rgb(40, 71, 71);
+}
+.list-input-container {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+}
+.add-btn {
+    margin-left: 10px;
+}
+.add-list-btn {
+    margin-left: 15px;
+}
+.del-card-btn {
+    background-color: rgb(233, 144, 144);
+    color: aliceblue ; 
+    border: rgb(233, 144, 144) 1px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+.del-list-btn {
+    background-color: aliceblue;
+    color: rgb(233, 144, 144) ; 
+    border: rgb(233, 144, 144) 1px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

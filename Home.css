@@ -1,0 +1,29 @@
+.home {
+    color: rgb(53, 60, 83);
+}
+.topic {
+    color: rgb(40, 71, 71);
+}
+
+.home-header{
+    margin: 25px;
+}
+.home-desc {
+    margin: 25px;
+    font-style: italic;
+}
+.home-tracker{
+    margin: 50px 25px 50px 25px;
+}
+.home-cards{
+    margin: 50px 25px 50px 25px;
+}
+.home-journal{
+    margin: 50px 25px 50px 25px;
+}
+.home-goal{
+    margin: 50px 25px 50px 25px;
+}
+.home-letter{
+    margin: 50px 25px 50px 25px;
+}
